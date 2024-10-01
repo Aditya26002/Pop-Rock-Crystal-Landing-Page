@@ -43,22 +43,15 @@ To get started, you can use the `npm start` command to start the development ser
 
 ## File Structure
 
-landing-page-project/
-├── public/
-│ ├── index.html
-│ └── ...
-├── src/
-│ ├── assets/
-│ │ └── hero_banner.png
-│ ├── components/
-│ │ ├── AllProducts.tsx
-│ │ ├── Hero.tsx
-│ │ ├── Offers.tsx
-│ │ └── Navbar.tsx
-│ ├── App.css
-│ ├── App.tsx
-│ ├── index.css
-│ ├── index.tsx
-│ └── ...
-├── package.json
-└── README.md
+- src
+  - components
+    - Hero
+    - AllProducts
+    - Offers
+  - pages
+    - index.tsx
+  - styles
+    - global.css
+  - vite.config.ts
+  - package.json
+  - README.md
